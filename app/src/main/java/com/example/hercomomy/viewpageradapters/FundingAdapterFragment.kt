@@ -1,12 +1,11 @@
-package com.example.hercomomy.adapters
+package com.example.hercomomy.viewpageradapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import androidx.viewpager2.adapter.FragmentStateAdapter
 
-class TopFragmentAdapter(fm: FragmentManager): FragmentStatePagerAdapter(fm,
-                                                BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
+class FundingAdapterFragment(fm: FragmentManager): FragmentStatePagerAdapter(fm,
+                                                    BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
     var fragmentList: ArrayList<Fragment> = ArrayList()
     var fragmentTitle: ArrayList<String> = ArrayList()

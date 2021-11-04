@@ -5,10 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.FragmentManager
 import androidx.viewpager.widget.ViewPager
 import com.example.hercomomy.R
-import com.example.hercomomy.adapters.FundingAdapterFragment
+import com.example.hercomomy.viewpageradapters.FundingAdapterFragment
 import com.example.hercomomy.lowerfragments.GrantsFragment
 import com.example.hercomomy.lowerfragments.LoansFragment
 import com.google.android.material.tabs.TabLayout

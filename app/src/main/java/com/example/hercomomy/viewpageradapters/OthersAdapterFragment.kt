@@ -1,4 +1,4 @@
-package com.example.hercomomy.adapters
+package com.example.hercomomy.viewpageradapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

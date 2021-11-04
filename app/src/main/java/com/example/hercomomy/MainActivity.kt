@@ -3,7 +3,7 @@ package com.example.hercomomy
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
-import com.example.hercomomy.adapters.TopFragmentAdapter
+import com.example.hercomomy.viewpageradapters.TopFragmentAdapter
 import com.example.hercomomy.topfragments.FundingFragment
 import com.example.hercomomy.topfragments.InvestmentFragment
 import com.example.hercomomy.topfragments.OthersFragment

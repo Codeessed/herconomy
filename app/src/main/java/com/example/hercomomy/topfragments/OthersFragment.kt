@@ -7,10 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager.widget.ViewPager
 import com.example.hercomomy.R
-import com.example.hercomomy.adapters.FundingAdapterFragment
-import com.example.hercomomy.lowerfragments.GrantsFragment
+import com.example.hercomomy.viewpageradapters.FundingAdapterFragment
 import com.example.hercomomy.lowerfragments.JobsFragment
-import com.example.hercomomy.lowerfragments.LoansFragment
 import com.example.hercomomy.lowerfragments.ScholarshipFragment
 import com.google.android.material.tabs.TabLayout
 
