@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".topfragments.FundingFragment"
-    android:background="@color/gray">
+    android:background="@color/gray"
+    tools:context=".topfragments.FundingFragment">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/fragment_funding_searchView_sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/fragment_funding_fundingTab_tl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:background="@color/gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragment_funding_searchView_sv"
         app:tabIndicatorColor="@color/teal_200"
         app:tabIndicatorFullWidth="true"
-        app:tabSelectedTextColor="@color/white"/>
+        app:tabSelectedTextColor="@color/white" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/fragment_funding_fundingViewPager_vp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/gray"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fragment_funding_fundingTab_tl" />
+        app:layout_constraintTop_toBottomOf="@id/fragment_funding_fundingTab_tl"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

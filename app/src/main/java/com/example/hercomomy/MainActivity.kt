@@ -2,7 +2,6 @@ package com.example.hercomomy
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TableLayout
 import androidx.viewpager.widget.ViewPager
 import com.example.hercomomy.adapters.TopFragmentAdapter
 import com.example.hercomomy.topfragments.FundingFragment
