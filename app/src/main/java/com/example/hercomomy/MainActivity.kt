@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var topTabLayout: TabLayout
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTheme(R.style.Theme_Hercomomy)
         setContentView(R.layout.activity_main)
 
         topViewPager = findViewById(R.id.activity_main_topViewpager_vp)
