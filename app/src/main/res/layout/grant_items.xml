@@ -20,7 +20,6 @@
                 android:id="@+id/fragment_grants_imageItem_iv"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:layout_marginTop="-40dp"
                 android:src="@drawable/first"
                 android:scaleType="centerCrop"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -30,7 +29,7 @@
 
             <TextView
                 android:id="@+id/fragment_grants_title_tv"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="fdsfsdfsddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
                 android:textColor="@color/black"
@@ -41,7 +40,7 @@
                 app:layout_constraintEnd_toEndOf="parent"/>
             <TextView
                 android:id="@+id/fragment_grants_content_tv"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="sfsdfsfffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeefffffffffffffffff"
                 android:maxLines="1"

@@ -28,9 +28,9 @@
                 app:layout_constraintTop_toTopOf="parent" />
             <TextView
                 android:id="@+id/fragment_jobs_title_tv"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:text="kkkkknnkknknknknknhjkkkkkjhggffvnnmmmmmmmmmmmkn"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginHorizontal="10dp"
@@ -39,12 +39,11 @@
                 app:layout_constraintEnd_toEndOf="parent"/>
             <TextView
                 android:id="@+id/fragment_jobs_recruiter_tv"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:text="hjhhhhhhhhhhhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:layout_marginTop="5dp"
                 app:layout_constraintStart_toStartOf="@id/fragment_jobs_title_tv"
                 app:layout_constraintEnd_toEndOf="@id/fragment_jobs_title_tv"
                 app:layout_constraintTop_toBottomOf="@id/fragment_jobs_title_tv"/>

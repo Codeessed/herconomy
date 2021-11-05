@@ -11,16 +11,40 @@ data class Jobs(
     companion object{
         var job = listOf(
             Jobs(
-                "fnnvnvnvnvnvnvnvnvnv",
-                "kkkfkfkfkfkfkfkfkfk",
+                "Marianne returned of peculiar replying in moderate. Roused get enable garret estate old county. Entreaties you devonshire law dissimilar terminated.",
+                "Law Union and Rock Insurance Plc.",
                 "3 days ago",
-                R.drawable.first
+                R.drawable.second
             ),
             Jobs(
-                "fnnvnvnvnvnvnvnvnvnv",
-                "kkkfkfkfkfkfkfkfkfk",
-                "3 days ago",
-                R.drawable.first
+                "Name were we at hope. Remainder household direction zealously the unwilling bed",
+                "Stood her place one ten spoke yet. Head case knew ever set why over.",
+                "6 days ago",
+                R.drawable.fifteen
+            ),
+            Jobs(
+                "Name were we at hope. Remainder household direction zealously the unwilling bed",
+                "Stood her place one ten spoke yet. Head case knew ever set why over.",
+                "6 days ago",
+                R.drawable.eighteen
+            ),
+            Jobs(
+                "Name were we at hope. Remainder household direction zealously the unwilling bed",
+                "Stood her place one ten spoke yet. Head case knew ever set why over.",
+                "6 days ago",
+                R.drawable.seventh
+            ),
+            Jobs(
+                "Name were we at hope. Remainder household direction zealously the unwilling bed",
+                "Stood her place one ten spoke yet. Head case knew ever set why over.",
+                "6 days ago",
+                R.drawable.ten
+            ),
+            Jobs(
+                "Name were we at hope. Remainder household direction zealously the unwilling bed",
+                "Stood her place one ten spoke yet. Head case knew ever set why over.",
+                "6 days ago",
+                R.drawable.twenty
             )
         )
     }
