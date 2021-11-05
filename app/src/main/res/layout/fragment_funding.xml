@@ -4,16 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray"
+    android:background="@color/white"
     tools:context=".topfragments.FundingFragment">
+
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/fragment_funding_searchView_sv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:queryHint="Search"
+        android:backgroundTint="#e8e9f4"
+        android:queryBackground="@android:color/transparent"
+        android:background="@drawable/searchview"
+        android:layout_marginHorizontal="20dp"
         app:iconifiedByDefault="false"
-        android:background="@color/white"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,15 +31,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fragment_funding_searchView_sv"
-        app:tabIndicatorColor="@color/teal_200"
+        app:tabIndicatorColor="@color/main_color"
         app:tabIndicatorFullWidth="true"
-        app:tabSelectedTextColor="@color/white" />
+        app:tabSelectedTextColor="@color/black" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/fragment_funding_fundingViewPager_vp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/gray"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fragment_funding_fundingTab_tl"

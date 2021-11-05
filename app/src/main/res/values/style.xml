@@ -8,4 +8,12 @@
         <item name="cornerSizeTopRight">68dp</item>
         <item name="cornerSizeTopLeft">68dp</item>
     </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+
 </resources>
